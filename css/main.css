@@ -1,0 +1,508 @@
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url("../fonts/MontserratRegular/MontserratRegular.eot");
+  src: url("../fonts/MontserratRegular/MontserratRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MontserratRegular/MontserratRegular.woff") format("woff"), url("../fonts/MontserratRegular/MontserratRegular.ttf") format("truetype"), url("../fonts/MontserratRegular/MontserratRegular.svg") format("svg");
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url("../fonts/MontserratBold/MontserratBold.eot");
+  src: url("../fonts/MontserratBold/MontserratBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MontserratBold/MontserratBold.woff") format("woff"), url("../fonts/MontserratBold/MontserratBold.ttf") format("truetype"), url("../fonts/MontserratBold/MontserratBold.svg") format("svg");
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular/RobotoRegular.svg") format("svg");
+}
+
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url("../fonts/MontserratRegular/MontserratRegular.eot");
+  src: url("../fonts/MontserratRegular/MontserratRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MontserratRegular/MontserratRegular.woff") format("woff"), url("../fonts/MontserratRegular/MontserratRegular.ttf") format("truetype"), url("../fonts/MontserratRegular/MontserratRegular.svg") format("svg");
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url("../fonts/MontserratBold/MontserratBold.eot");
+  src: url("../fonts/MontserratBold/MontserratBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MontserratBold/MontserratBold.woff") format("woff"), url("../fonts/MontserratBold/MontserratBold.ttf") format("truetype"), url("../fonts/MontserratBold/MontserratBold.svg") format("svg");
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular/RobotoRegular.svg") format("svg");
+}
+
+@media only screen and (max-width: 992px) {
+  .main-banner {
+    padding: 120px 0px 30px 0px;
+  }
+  .main-benefit {
+    width: 90%;
+    padding: 0% 5%;
+  }
+  .main-benefit .ImgBgBenefit-one, .main-benefit .ImgBgBenefit-Two {
+    width: 120px;
+  }
+  .main-benefit .benefit {
+    z-index: 9;
+    margin: 0% 5%;
+    position: relative;
+    border: 6px solid #F29120;
+  }
+  .main-desc {
+    margin: 0px 0px 0px 0px;
+  }
+  .main-desc .main-desc-tac {
+    z-index: 10;
+    margin: 0% 20%;
+    position: absolute;
+    padding: 10px 30px;
+    background-color: #fff;
+    -webkit-box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.28);
+            box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.28);
+    position: relative;
+    margin: 2% 10% 0% 10%;
+  }
+  .main-desc .main-desc-tac p {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    font-family: "MontserratRegular";
+    background-color: #F29120;
+  }
+  .main-desc .main-desc-tac ul {
+    color: #000;
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 24px;
+    text-overflow: clip;
+    padding: 0px 0px 0px 20px;
+    font-family: "MontserratRegular";
+  }
+  .main-desc .main-desc-mechanism {
+    z-index: 10;
+    margin: 0% 20%;
+    position: absolute;
+    padding: 10px 30px;
+    background-color: #fff;
+    -webkit-box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.28);
+            box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.28);
+    margin: 2% 10% 0% 10%;
+  }
+  .main-desc .main-desc-mechanism p {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    font-family: "MontserratRegular";
+    background-color: #F29120;
+  }
+  .main-desc .main-desc-mechanism ul {
+    color: #000;
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 24px;
+    text-overflow: clip;
+    padding: 0px 0px 0px 20px;
+    font-family: "MontserratRegular";
+  }
+  .main-desc .ImgBgDesc {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+  }
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fffcf7;
+}
+
+.header .header-view {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.header .header-img {
+  z-index: 20;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  margin: 35px 0px 0px 0px;
+}
+
+.header .header-img img {
+  width: 340px;
+  height: 60px;
+  text-align: center;
+  position: relative;
+}
+
+.active {
+  opacity: 0.8;
+  background-color: #fffbf5;
+}
+
+.main-banner {
+  margin: 0px;
+  background-size: 100vmax;
+  padding: 120px 0px 100px 0px;
+  background-repeat: no-repeat;
+  background-image: url("../images/ImgBackgroundBanner.svg");
+}
+
+.main-banner .main-banner-content {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 0px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-banner .main-banner-content img {
+  width: 720px;
+  height: auto;
+}
+
+.main-banner .main-banner-content h1 {
+  color: #000;
+  font-family: "MontserratRegular";
+}
+
+.main-banner .main-banner-content strong {
+  color: #F29120;
+  font-family: "MontserratBold";
+}
+
+.main-benefit {
+  margin: 0px;
+}
+
+.main-benefit .ImgBgBenefit-one {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  width: 200px;
+}
+
+.main-benefit .ImgBgBenefit-Two {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  width: 200px;
+}
+
+.main-benefit .benefit {
+  z-index: 10;
+  margin: 0% 25%;
+  position: relative;
+  background-color: #fffcf7;
+  border: 8px solid #F29120;
+}
+
+.main-benefit .benefit h1 {
+  width: 80%;
+  color: #fff;
+  padding: 5px 0px;
+  position: relative;
+  text-align: center;
+  font-family: "MontserratRegular";
+  margin: -30px auto 0px auto;
+  background-color: #F29120;
+}
+
+.main-benefit .benefit .benefit-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 20px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main-benefit .benefit .benefit-all .benefit-items {
+  text-align: center;
+}
+
+.main-benefit .benefit .benefit-all .benefit-items img {
+  width: 160px;
+  height: 150px;
+}
+
+.main-benefit .benefit .benefit-all .benefit-items p {
+  width: 140px;
+  color: #fff;
+  padding: 10px 5px;
+  margin: 10px 0px 0px 0px;
+  font-family: "MontserratRegular";
+  background-color: #F29120;
+}
+
+.main-benefit .benefit-periode {
+  width: 30%;
+  padding: 15px 5px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: #000;
+}
+
+.main-benefit .benefit-periode h2 {
+  margin: 0px;
+  color: #fff;
+  font-family: "MontserratBold";
+}
+
+.main-benefit .benefit-periode strong {
+  color: #F29120;
+  font-family: "MontserratBold";
+}
+
+.main-desc {
+  margin: 0px 0px 0px 0px;
+}
+
+.main-desc .main-desc-tac {
+  z-index: 10;
+  margin: 0% 20%;
+  position: absolute;
+  padding: 10px 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.28);
+          box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.28);
+  position: relative;
+}
+
+.main-desc .main-desc-tac p {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0px;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+  font-family: "MontserratRegular";
+  background-color: #F29120;
+}
+
+.main-desc .main-desc-tac ul {
+  color: #000;
+  font-size: 18px;
+  overflow: hidden;
+  line-height: 24px;
+  text-overflow: clip;
+  padding: 0px 0px 0px 20px;
+  font-family: "MontserratRegular";
+}
+
+.main-desc .main-desc-mechanism {
+  z-index: 10;
+  margin: 0% 20%;
+  position: absolute;
+  padding: 10px 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.28);
+          box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.28);
+  margin: 2% 20% 0% 20%;
+}
+
+.main-desc .main-desc-mechanism p {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0px;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+  font-family: "MontserratRegular";
+  background-color: #F29120;
+}
+
+.main-desc .main-desc-mechanism ul {
+  color: #000;
+  font-size: 18px;
+  overflow: hidden;
+  line-height: 24px;
+  text-overflow: clip;
+  padding: 0px 0px 0px 20px;
+  font-family: "MontserratRegular";
+}
+
+.main-desc .ImgBgDesc {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  width: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+  .main-banner {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+    z-index: 20;
+  }
+  .header .header-img img {
+    width: 180px;
+    height: 40px;
+  }
+  .main-banner {
+    width: 100%;
+    background-size: contain;
+  }
+  .main-banner .main-banner-content {
+    padding: 0px 10px;
+  }
+  .main-banner .main-banner-content img {
+    width: 340px;
+    height: auto;
+  }
+  .main-banner .main-banner-content h1 {
+    font-size: 1rem;
+  }
+  .main-benefit {
+    width: 90%;
+    padding: 0% 5%;
+  }
+  .main-benefit .ImgBgBenefit-one, .main-benefit .ImgBgBenefit-Two {
+    width: 100px;
+  }
+  .main-benefit .benefit {
+    z-index: 9;
+    margin: 0% 5%;
+    position: relative;
+    border: 4px solid #F29120;
+  }
+  .main-benefit .benefit h1 {
+    width: 80%;
+    font-size: 12px;
+    font-family: "MontserratRegular";
+    margin: -20px auto 0px auto;
+  }
+  .main-benefit .benefit .benefit-all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-height: 380px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-benefit .benefit .benefit-all .benefit-items {
+    text-align: center;
+  }
+  .main-benefit .benefit .benefit-all .benefit-items img {
+    width: 80px;
+    height: 90px;
+  }
+  .main-benefit .benefit .benefit-all .benefit-items p {
+    width: 120px;
+    font-size: 10px;
+    padding: 4px 0px;
+    margin: 10px auto;
+    font-family: "MontserratRegular";
+  }
+  .main-benefit .benefit-periode {
+    width: 60%;
+    z-index: 10;
+    padding: 8px 5px;
+    position: relative;
+    text-align: center;
+    margin: -15px auto 15px auto;
+  }
+  .main-benefit .benefit-periode h2 {
+    margin: 0px;
+    font-size: 12px;
+    font-family: "MontserratBold";
+  }
+  .main-benefit .benefit-periode strong {
+    font-family: "MontserratBold";
+  }
+  .main-desc {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+  .main-desc::before {
+    padding: 0% 0% 10% 0%;
+  }
+  .main-desc .main-desc-tac {
+    padding: 10px 10px;
+    margin: 0px 0px 0px 0px;
+    -webkit-box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.28);
+            box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.28);
+    margin: 0px 20px 40px 20px;
+  }
+  .main-desc .main-desc-tac p {
+    font-size: 14px;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+  }
+  .main-desc .main-desc-tac ul {
+    overflow: hidden;
+    text-overflow: clip;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 0px 0px 20px;
+  }
+  .main-desc .main-desc-mechanism {
+    padding: 10px 10px;
+    margin: 0px 0px 0px 0px;
+    -webkit-box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.28);
+            box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.28);
+    position: relative;
+    margin: 0px 20px -140px 20px;
+  }
+  .main-desc .main-desc-mechanism p {
+    font-size: 14px;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+  }
+  .main-desc .main-desc-mechanism ul {
+    overflow: hidden;
+    text-overflow: clip;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 0px 0px 20px;
+  }
+  .main-desc .ImgBgDesc {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
